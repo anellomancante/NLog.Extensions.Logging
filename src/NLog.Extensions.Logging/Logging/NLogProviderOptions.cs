@@ -76,6 +76,6 @@
         /// <summary>
         /// Default options
         /// </summary>
-        internal static readonly NLogProviderOptions Default = new NLogProviderOptions();
+        public static NLogProviderOptions Default { get; } = new NLogProviderOptions();
     }
 }
